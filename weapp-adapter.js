@@ -230,11 +230,11 @@
 	  availWidth: innerWidth,
 	  availHeight: innerHeight
 	}
-	var performance = exports.performance = {
-	  now: function now() {
-	    return Date.now() / 1000
-	  }
-	}
+	// var performance = exports.performance = {
+	//   now: function now() {
+	//     return Date.now() / 1000
+	//   }
+	// }
 	var ontouchstart = exports.ontouchstart = null
 	var ontouchmove = exports.ontouchmove = null
 	var ontouchend = exports.ontouchend = null

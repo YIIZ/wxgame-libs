@@ -3440,10 +3440,10 @@ var createjs = createjs || {};
 		this._tag[this._tagSrcAttribute] = this._item.src;
 
 		// wdg:: Append the tag AFTER setting the src, or SVG loading on iOS will fail.
-		if (this._tag.parentNode == null) {
-			window.document.body.appendChild(this._tag);
-			this._addedToDOM = true;
-		}
+		// if (this._tag.parentNode == null) {
+		// 	window.document.body.appendChild(this._tag);
+		// 	this._addedToDOM = true;
+		// }
 	};
 
 	p.destroy = function() {
